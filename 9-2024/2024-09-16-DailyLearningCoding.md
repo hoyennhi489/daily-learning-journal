@@ -139,4 +139,111 @@ The first element I learned was the h1 element.
     <a href="https://freecatphotoapp.com">link to cat pictures</a>
 
 <a href="https://freecatphotoapp.com">link to cat pictures</a>
-___
+
+**Step 12:**
+>The `<a>` tag is used to create a link, the href attribute contains the URL.
+
+>You can nest the `<a>` tag in the `<p>` tag to link a piece of text.
+
+***Result of step 12:***
+
+`<p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>`
+
+<p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+
+**Step 14:**
+
+>The `target="_blank"` attribute is used to open the link in a new tab or window.
+
+*The basic syntax of the `<a>` tag with the target attribute:*
+
+    <a href="URL" target="_blank">Text</a>
+
+-> This opens the link without leaving the current page.
+
+***Step 14 Result:***
+
+    <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+
+<p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+
+***Step 15:***
+
+>You can turn any content into a link, not just text, by surrounding it with the `<a>` tag.
+
+*For example, to turn an image into a link:*
+
+    <a href="URL"><img src="image-link.jpg" alt="Description"></a>
+
+***Step 15 Result:***
+
+    <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+<a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+**Step 16:**
+>The `<section>` tag is used to group related content within a document.
+
+***Example:***
+
+    <section>
+      <h2>Section Title</h2>
+      <p>Content of this section...</p>
+    </section>
+
+>The `<section>` tag helps make the structure of the webpage clearer and easier to adjust when you need to change or add new content.
+
+***Result of Step 16:***
+
+    <main>
+     <h1>CatPhotoApp</h1>
+     <section>
+       <h2>Cat Photos</h2>
+       <!-- TODO: Add link to cat photos -->
+       <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+       <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+       </a>
+     </section>
+    </main>
+
+<main>
+  <h1>CatPhotoApp</h1>
+  <section>
+    <h2>Cat Photos</h2>
+    <!-- TODO: Add link to cat photos -->
+    <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+    <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </a>
+  </section>
+</main>
+
+**Step 17:** Add New `<Section>`.
+
+***Result:***
+
+    <section></section>
+
+**Step 18:** Add `<h2>` Tag.
+
+***Result:***
+
+    <section>
+      <h2>Cat Lists</h2>
+    </section>
+
+**Step 19:** Add `<h3>` Tag.
+
+***Result:***
+
+    <section>
+      <h2>Cat Lists</h2>
+      <h3>Things cats love:</h3>
+    </section>
+
+**Step 20:**
+>To create an unordered list, use the `<ul>` tag.
+
+***Result:***
+
+    <ul></ul>
+ ___
