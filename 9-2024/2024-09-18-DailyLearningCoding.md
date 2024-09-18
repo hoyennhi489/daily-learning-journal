@@ -190,3 +190,110 @@ Example of a `label` tag associated with this input element:
   <input id="energetic" value="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
 </fieldset>
 ```
+
+**Step 61:**
+> The `checked` attribute is used to pre-select a checkbox or radio button when the web page is loaded.
+
+*Result:*
+```html
+<fieldset>
+  <legend>Is your cat an indoor or outdoor cat?</legend>
+  <label><input checked id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+</fieldset>
+<fieldset>
+  <legend>What's your cat's personality?</legend>
+  <input checked id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+  <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+  <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+</fieldset>
+```
+
+**Step 62:**
+> Add a `<footer>` element after `<main>` to define the footer with information such as author, copyright, and contact.
+
+*Result:*
+```html
+</main>
+<footer></footer>
+</body>
+```
+
+**Step 63:** Add a `<p>` element inside the `<footer>` element.
+
+*Result:*
+```html
+<footer>
+  <p>No Copyright - freeCodeCamp.org</p>
+</footer>
+```
+
+**Step 64:**
+
+*Result:*
+```html
+<p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+```
+
+**Step 65:**
+> The `<head>` element is used to contain metadata about the document, such as the title, links to stylesheet files, and scripts.
+
+> Metadata is information about the page but is not directly displayed on the page.
+
+*Result:*
+```html
+<html>
+  <head></head>
+  <body>
+```
+
+**Step 66:**
+> The `<title>` element determines what the browser displays on the title bar or tab for the page.
+
+*Result:*
+```html
+<head>
+  <title>CatPhotoApp</title>
+</head>
+```
+
+**Step 67:**
+> Add the `lang` attribute to the opening `<html>` tag to specify the language of the page.
+
+> The value `en` in the `lang` attribute of the `<html>` tag represents the English language.
+
+*Result:*
+```html
+<html lang="en">
+```
+
+**Step 68:**
+> All web pages should start with `<!DOCTYPE html>`.
+
+> `<!DOCTYPE html>` informs the browser that the document is an HTML5 document, the latest version of HTML.
+
+*Result:*
+```html
+<!DOCTYPE html>
+```
+
+**Step 69:**
+> The `<meta>` element helps set the behavior of the browser.
+
+> The `<meta>` element is a self-closing element.
+
+> The `charset` attribute in the `<meta>` tag specifies the character encoding that the browser will use to display text on the web page.
+
+> `utf-8` is one of the most common character encodings, supporting most languages in the world, including special characters.
+
+*Example:*
+```html
+<meta attribute="value">
+```
+*Result:*
+```html
+<head>
+  <meta charset="utf-8">
+  <title>CatPhotoApp</title>
+</head>
+```
