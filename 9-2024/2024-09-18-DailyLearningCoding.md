@@ -300,6 +300,7 @@ Example of a `label` tag associated with this input element:
 ___
 *I've completed the first section of Freecodecamp. Here are the results I've learned after the 69 steps I've worked through in the past few days:*
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
