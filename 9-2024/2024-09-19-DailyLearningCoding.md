@@ -1,5 +1,5 @@
 
-**On September 6, I learned about the next part of FreeCodeCamp: "Learn Basic CSS by Building a Cafe Menu."**
+Day 6 I learned about the next part of Freecodecamp: **"Learn Basic CSS by Building a Cafe Menu."**
 
 `CSS` is a language used to format HTML documents. It describes how HTML elements should be displayed on the screen.
 
