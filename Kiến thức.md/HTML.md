@@ -165,8 +165,6 @@ HTML
 <input id="email">
 ```
 
-44. **Kết quả cho thẻ `<label>` với nút radio**.
-
 45. **Cả hai nút `radio`**: Phải có thuộc tính `name` giống nhau để chọn một nút tự động hủy chọn nút khác.
 
 46. **Thêm thuộc tính `value` cho nút radio**: Để dữ liệu rõ ràng.
@@ -181,25 +179,13 @@ HTML
 
 51. **Hộp kiểm (checkbox)**: Cho phép chọn nhiều tùy chọn cùng lúc.
 
-52. **Thêm thuộc tính `id` cho checkbox**.
-
 53. **Liên kết văn bản với phần tử nhập liệu qua thuộc tính `for`**.
-
-54. **Thêm thuộc tính `name` cho hộp kiểm**.
-
-55. **Kết quả cho checkbox với `id`**.
-
-56. **Kết quả cho checkbox khác với `id`**.
-
-57. **Thêm thuộc tính `value` cho hộp kiểm**.
 
 58. **Thuộc tính `checked`**: Làm cho nút chọn được chọn sẵn.
 
 59. **Thêm phần tử `<footer>`**: Sau `<main>`.
 
 60. **Thêm phần tử `<p>` vào trong `<footer>`**.
-
-61. **Kết quả cho phần tử `<p>` với liên kết**.
 
 62. **Phần tử `<head>`**: Chứa siêu dữ liệu về tài liệu.
 
