@@ -218,7 +218,27 @@ img {
 }
 ```
 ___
-My lesson on VSS from Freecodecamp is complete, and here are the results of my learning journey:
-<a href="file:///C:/Users/HP/Desktop/daily-learning-journal/9-2024/2024-09-22-index.html">click here</a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+</head>
+<body>
+    <h1>My lesson on VSS from Freecodecamp is complete, and here are the results of my learning journey:</h1>
+    <a href="file:///C:/Users/HP/Desktop/daily-learning-journal/9-2024/2024-09-22-index.html">Open file</a>
+    <style>
+      h1 {
+        font-size: 20px;
+      }
+      a:hover {
+        color: brown
+      }
+</style>
+</body>
+</html>
+
 
 
