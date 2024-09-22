@@ -218,5 +218,7 @@ img {
 }
 ```
 ___
+My lesson on VSS from Freecodecamp is complete, and here are the results of my learning journey:
+<a href="file:///C:/Users/HP/Desktop/daily-learning-journal/9-2024/2024-09-22-index.html">click here</a>
 
 
