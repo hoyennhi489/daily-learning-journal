@@ -343,3 +343,144 @@ Step 80:
   border-left-style: solid;
 }
 ```
+
+**Step 81:**
+```css
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+```
+
+**Step 82:**
+- The `border-left` property combines width, style, and color.
+- Syntax: `border-left: width style color;`
+- Use the same value for all three properties when applying.
+```css
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px solid black;
+}
+```
+
+**Step 83:**
+```css
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double black;
+}
+```
+
+**Step 84:**
+```css
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+```
+
+**Step 85:**
+```html
+<div class="marker red">
+  <div class="cap"></div>
+  <div class="sleeve"></div>
+</div>
+<div class="marker green">
+  <div class="cap"></div>
+  <div class="sleeve"></div>
+</div>
+<div class="marker blue">
+  <div class="cap"></div>
+  <div class="sleeve"></div>
+</div>
+```
+
+**Step 86:**
+> Use `box-shadow` to create a shadow for the element.
+```css
+box-shadow: offsetX offsetY color;
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 5px 5px red;
+}
+```
+
+**Step 87:**
+```css
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: -5px -5px red;
+}
+```
+
+**Step 88:**
+```css
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 5px 5px 5px green;
+}
+```
+
+**Step 89:**
+```css
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 0 5px blue;
+}
+```
+
+**Step 90:**
+```css
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0px 0px 20px 0 red;
+}
+```
+
+**Step 91:**
+```css
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+```
+
+**Step 92:**
+```css
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 green;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 blue;
+}
+```
+
+**Step 93:**
+```css
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+```
+
+**Step 94:**
+```css
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
+```
