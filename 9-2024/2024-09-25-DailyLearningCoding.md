@@ -181,4 +181,90 @@ label {
 <fieldset></fieldset>
 <input type="submit" value="Submit">
 ```
+
+**Step 21:**
+> The `required` attribute requires users to fill in this field before submitting the form, ensuring that important data is not omitted.
+```html
+<fieldset>
+  <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required/></label>
+  <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required/></label>
+  <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+  <label for="new-password">Create a New Password: <input id="new-password" type="password" required/></label>
+</fieldset>
+```
+
+**Step 22:**
+> The `minlength="8"` attribute ensures that the user must enter at least 8 characters into the password field, improving the security of the login information.
+```html
+<label for="new-password">Create a New Password: <input id="new-password" type="password" required minlength="8" /></label>
+```
+
+**Step 23:**
+> The `pattern="[a-z0-5]{8,}"` attribute requires the password to be at least 8 characters long, consisting entirely of lowercase letters or numbers from 0 to 5, ensuring a certain structure for the password.
+```html
+<label for="new-password">New Password: <input type="password" id="new-password" name="new-password" required pattern="[a-z0-5]{8,}"></label>
+```
+
+**Step 24:**
+```html
+<fieldset>
+  <label></label>
+  <label></label>
+</fieldset>
+```
+
+**Step 25:**
+> `<input>` tags with `type="radio"` allow users to choose one of two options (Personal or Business).
+```html
+<fieldset>
+  <label><input type="radio"></label>
+  <label><input type="radio"></label>
+</fieldset>
+```
+
+**Step 26:**
+```html
+<label>
+  <input type="radio"> Personal
+</label>
+
+<label>
+  <input type="radio"> Business
+</label>
+```
+
+**Step 27:**
+> Assigning the same value to the `name` attribute (in this case, `account-type`) for radio buttons allows users to select only one of the options, ensuring input accuracy.
+```html
+<fieldset>
+  <label><input type="radio" name="account-type" /> Personal</label>
+  <label><input type="radio" name="account-type" /> Business</label>
+</fieldset>
+```
+
+**Step 28:**
+> Adding a `<legend>` tag provides clear context about the need to select an account type, helping users better understand the requirement.
+> 
+> The `checked` attribute is added to the Personal radio input to ensure that one option is always selected when the form is submitted.
+```html
+<fieldset>
+  <legend>Account type (required)</legend>
+  <label><input type="radio" name="account-type" checked /> Personal</label>
+  <label><input type="radio" name="account-type" /> Business</label>
+</fieldset>
+```
+
+**Step 29:**
+```html
+<fieldset>
+  <legend>Account type (required)</legend>
+  <label for="personal-account"><input type="radio" id="personal-account" name="account-type" checked /> Personal</label>
+  <label for="business-account"><input type="radio" id="business-account" name="account-type" /> Business</label>
+</fieldset>
+```
+
+**Step 30:**
+```html
+<label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required></label>
+```
 ___
