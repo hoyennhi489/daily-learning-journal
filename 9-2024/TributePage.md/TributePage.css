@@ -1,0 +1,39 @@
+img {
+    display: block
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+  }
+  
+  header {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0056b3;
+  }
+  
+  h2 {
+      color: #0056b3;
+  }
+  
+  #main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  #img-div {
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  #image {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  #img-caption {
+      font-style: italic;
+      margin-top: 10px;
+  }  
