@@ -1,0 +1,53 @@
+<!DOcTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Experience Survey</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+  </head>
+  <body>
+    <header>
+    <h1 id="title">User Experience Survey</h1>
+    <p id="description">Please fill out this form with the required information</p> 
+    </header>
+    <form id="survey-form" action="https://User-Experience-demo.freecodecamp.org">
+      <div id="survey-form">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="number-label">Age: <input id="number" type="number" placeholder="Enter your age" min="1" max="100"></label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+      <label id="role">You are:</label>
+      <select id="dropdown" name="dropdown" required>
+        <option value="" disabled selected>Select your role</option>
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+      </select>
+    <fieldset>
+      <Legend>Would you recommend this website to your friends?</legend>
+      <label for="yes-recommend"><input id="yes-recommend" type="radio" name="recommend" value="yes" class="inline" checked> Yes</label>
+      <label for="no-recommend"><input id="no-recommend" type="radio" name="recommend" value="no" class="inline"> No</label>
+    </fieldset>
+    <fieldset>
+        <legend>Select your interests:</legend>
+        <label id="interest1">
+          <input id="interest1" type="checkbox" name="interests" value="coding" checked />Coding
+        </label>
+        <label id="interest2">
+          <input id="interest2" type="checkbox" name="interests" value="design" /> Design
+        </label>
+        <label id="interest3">
+          <input id="interest3" type="checkbox" name="interests" value="music" /> Music
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Your feedback: </legend>
+        <label id="feedback">
+           <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+        <label>
+      </fieldset>
+    <button id="submit" type="submit">Submit</button>  
+    </div>
+    </form>
+  </body>
+  </html>
