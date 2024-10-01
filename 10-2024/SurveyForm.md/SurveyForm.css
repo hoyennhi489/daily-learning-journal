@@ -7,9 +7,16 @@ label {
     display: block;
     margin: 0.5rem 0;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
+  }
   
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
   }
   
   body {
@@ -47,3 +54,10 @@ label {
     height: 2em;
   }
   
+  .inline {
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+    width: unset;
+    display: inline-block;
+    margin-right: 15px;
+  }
