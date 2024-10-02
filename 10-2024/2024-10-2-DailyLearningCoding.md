@@ -22,11 +22,13 @@
 
 **Step 3:**
 >Note: In the CSS box model, each HTML element is viewed as a box with 4 areas: content, padding, border, and margin. The content is the actual element inside the box, such as headings, paragraphs, or images.
-  	<img src="https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-2.png">
+  	
+<img src="https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-2.png">
 
 **Step 4:**
 >Note: Padding creates space between the content and the border, while the border is the outline surrounding the element, similar to a cardboard box around the item inside.
-	<img src="https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-3.png">
+	
+ <img src="https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-3.png">
 
 **Step 5:**
 >Note: Margin creates space outside of elements, helping to position them on the page, while padding and border are inside the box.
