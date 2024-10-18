@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Technical Documentation.css" />
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS</h1>
+    </header>
+    <nav id="navbar">
+        <header>
+            <h2>Table of Contents:</h2>
+        </header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Basic_Structure_of_HTML">Basic Structure of HTML</a></li>
+            <li><a class="nav-link" href="#Common_HTML_Tags">Common HTML Tags</a></li>
+            <li><a class="nav-link" href="#Introduction_to_CSS">Introduction to CSS</a></li>
+            <li><a class="nav-link" href="#Basic_CSS_Properties">Basic CSS Properties</a></li>
+            <li><a class="nav-link" href="#Linking_CSS_and_HTML">Linking CSS and HTML</a></li>
+            <li><a class="nav-link" href="#CSS_Box_Model">CSS Box Model</a></li>
+            <li><a class="nav-link" href="#Classification_of_HTML_and_CSS_Elements">Classification of HTML and CSS Elements</a></li>
+            <li><a class="nav-link" href="#Browser_Compatibility">Browser Compatibility</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h3>Introduction</h3>
+            </header>
+            <p>This document provides basic knowledge about HTML (HyperText Markup Language) and CSS (Cascading Style Sheets).</p>
+            <p>HTML is used to structure content on the web.</p>
+            <p>CSS is used to style and layout web pages.</p>
+            <p>Understanding both technologies is essential for web development.</p>
+        </section>
+
+        <section class="main-section" id="Basic_Structure_of_HTML">
+            <header>
+                <h3>Basic Structure of HTML</h3>
+            </header>
+            <p>Here is an example of a basic HTML structure:</p>
+            <pre><code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="vi"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Technical Documentation&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Welcome to Technical Documentation&lt;/h1&gt;
+                &lt;p&gt;This is an example of a basic HTML structure.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+            </code></pre>
+            <p>This example showcases the fundamental elements of an HTML page.</p>
+            <p>Every HTML document begins with a doctype declaration.</p>
+        </section>
+
+        <section class="main-section" id="Common_HTML_Tags">
+            <header>
+                <h3>Common HTML Tags</h3>
+            </header>
+            <p>Common HTML tags include:</p>
+            <ul>
+                <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Heading tags</li>
+                <li><code>&lt;p&gt;</code>: Paragraph tag</li>
+                <li><code>&lt;a&gt;</code>: Anchor (link) tag</li>
+                <li><code>&lt;img&gt;</code>: Image tag</li>
+                <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>: Unordered and ordered lists</li>
+            </ul>
+            <p>These tags help in structuring content effectively.</p>
+            <p>Familiarity with these tags is crucial for any web developer.</p>
+        </section>
+
+        <section class="main-section" id="Introduction_to_CSS">
+            <header>
+                <h3>Introduction to CSS</h3>
+            </header>
+            <p>CSS is used to style and layout HTML elements.</p>
+            <p>It helps create visually appealing and user-friendly web pages.</p>
+            <p>CSS can control the layout of multiple web pages all at once.</p>
+        </section>
+
+        <section class="main-section" id="Basic_CSS_Properties">
+            <header>
+                <h3>Basic CSS Properties</h3>
+            </header>
+            <p>Here are some basic CSS properties:</p>
+            <pre><code>
+            body {<br>
+            &nbsp;&nbsp;background-color: #f0f0f0;<br>
+            &nbsp;&nbsp;font-family: Arial, sans-serif;<br>
+            }<br>
+            <br>
+            h1 {<br>
+            &nbsp;&nbsp;color: #333;<br>
+            }<br>
+            <br>
+            p {<br>
+            &nbsp;&nbsp;font-size: 16px;<br>
+            }
+            </code></pre>
+            <p>These properties help in styling the text and background of web pages.</p>
+        </section>
+
+        <section class="main-section" id="Linking_CSS_and_HTML">
+            <header>
+                <h3>Linking CSS and HTML</h3>
+            </header>
+            <p>To link a CSS file with an HTML file, use the &lt;link&gt; tag in the &lt;head&gt; section of the HTML document:</p>
+            <pre><code>
+            &lt;head&gt;
+                &lt;link rel="stylesheet" href="styles.css"&gt;
+            &lt;/head&gt;
+            </code></pre>
+            <p>This method ensures that the CSS styles are applied to the HTML content.</p>
+        </section>
+
+        <section class="main-section" id="CSS_Box_Model">
+            <header>
+                <h3>CSS Box Model</h3>
+            </header>
+            <p>The CSS Box Model represents how HTML elements are structured on a page.</p>
+            <p>Each element is considered a box that consists of:</p>
+            <ul>
+                <li><strong>Content:</strong> The content of the element</li>
+                <li><strong>Padding:</strong> The space between the content and the border</li>
+                <li><strong>Border:</strong> The line surrounding the element</li>
+                <li><strong>Margin:</strong> The space between the element and other elements</li>
+            </ul>
+            <p>Understanding the box model is crucial for layout design.</p>
+        </section>
+
+        <section class="main-section" id="Classification_of_HTML_and_CSS_Elements">
+            <header>
+                <h3>Classification of HTML and CSS Elements</h3>
+            </header>
+            <p>Elements can be classified as:</p>
+            <ul>
+                <li><strong>Block elements:</strong> Occupy the full width of the page (e.g., <code>&lt;div&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>)</li>
+                <li><strong>Inline elements:</strong> Only occupy space based on their content (e.g., <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>)</li>
+                <li><strong>Inline-block elements:</strong> Combine features of both block and inline elements (e.g., <code>&lt;img&gt;</code>).</li>
+            </ul>
+            <p>This classification helps understand how elements behave in different contexts.</p>
+        </section>
+
+        <section class="main-section" id="Browser_Compatibility">
+            <header>
+                <h3>Browser Compatibility</h3>
+            </header>
+            <p>To ensure that your web page works well across different browsers, use standardized CSS properties.</p>
+            <p>Testing in browsers such as Chrome, Firefox, Safari, and Edge is essential.</p>
+            <p>Tools like <strong>Autoprefixer</strong> can improve cross-browser support.</p>
+        </section>
+    </main>
+</body>
+</html>

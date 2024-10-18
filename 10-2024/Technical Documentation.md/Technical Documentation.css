@@ -1,0 +1,46 @@
+pre{
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkblue;
+    text-align: center;
+    
+}
+
+h2, h3 {
+    color: darkblue;
+    font-size: 22px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+.nav-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    #navbar {
+        padding: 5px;
+    }
+
+    .nav-link {
+        display: block;
+        margin: 5px 0;
+    }
+}
