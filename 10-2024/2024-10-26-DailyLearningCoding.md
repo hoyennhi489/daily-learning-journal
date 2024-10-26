@@ -1,0 +1,1 @@
+"Today marks the start of my fourth project: **Product Landing Page**. While it’s still a work in progress, I’ll be keeping a daily log here and will publish it once completed."
