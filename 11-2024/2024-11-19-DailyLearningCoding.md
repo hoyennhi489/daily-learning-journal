@@ -1,0 +1,1 @@
+"Today marks the beginning of my journey with JavaScript, as I start working on my first project: '**Build a Palindrome Checker.**' Although it’s still a work in progress, I’m aiming to complete it by tomorrow. This post is my project log, where I’ll track my progress along the way."
