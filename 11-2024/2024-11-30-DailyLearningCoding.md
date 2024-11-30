@@ -197,3 +197,5 @@ const dearRegex = /dear friend/i;
 ```javascript
 const dearRegex = /(?:^|\s)d[e3][a@4]r fr[i1|][e3]nd(?:$|\s)/i;
 ```
+
+---
