@@ -1,4 +1,4 @@
-Step 63-36:
+Step 36-63:
 
 ```javascript
 const evalFormula = (x, cells) => {
