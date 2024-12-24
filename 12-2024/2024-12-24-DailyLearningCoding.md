@@ -1,0 +1,1 @@
+"Today is the fourth day I’m working on the **'Build a Cash Register'** project. I’m writing these lines to document my progress and mark the day."
