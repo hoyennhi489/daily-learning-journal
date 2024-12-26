@@ -57,18 +57,15 @@ function getChange(change, cid, price, cash) {
     "ONE HUNDRED": 100
   };
 
-  // Tính tổng tiền trong ngăn kéo
   let totalCid = parseFloat(cid
     .reduce((sum, [_, amount]) => sum + amount, 0)
     .toFixed(2)
   );
 
-  // 1. Ngăn kéo có ít tiền hơn tiền thối
   if (totalCid < change) {
     return { status: "INSUFFICIENT_FUNDS", change: [] };
   }
 
-  // 2. Trường hợp ngăn kéo có đúng bằng tiền thối => Status: CLOSED
   if (Math.abs(totalCid - change) < 0.001) {
     let isSpecialCase18 = false;
     if (
@@ -99,7 +96,6 @@ function getChange(change, cid, price, cash) {
     };
   }
 
-  // 3. Trường hợp ngăn kéo có nhiều hơn tiền thối => Status: OPEN
   let remainingChange = parseFloat(change.toFixed(2));
   let changeArray = [];
 
@@ -124,12 +120,10 @@ function getChange(change, cid, price, cash) {
     }
   }
 
-  // Nếu thối xong mà vẫn còn dư tiền chưa thối => INSUFFICIENT_FUNDS
   if (remainingChange > 0) {
     return { status: "INSUFFICIENT_FUNDS", change: [] };
   }
 
-  // Còn lại => OPEN
   return { status: "OPEN", change: changeArray };
 }
 
