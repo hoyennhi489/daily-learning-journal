@@ -1,0 +1,1 @@
+"My computer has been broken for a while, so I couldn’t update the posts regularly. Today, I’m posting here to mark a new day and continue with my personal project that I haven’t been able to complete during this time."
