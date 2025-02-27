@@ -1,0 +1,1 @@
+"Today, I’ve been working on the **'Build a Markdown Previewer'** project as part of the **Front End Development Libraries Projects**. It’s still a work in progress, and I’m documenting today’s efforts to track my development process."
