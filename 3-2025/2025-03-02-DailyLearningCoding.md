@@ -1,0 +1,1 @@
+"I am still working on **Build a Markdown Previewer** and can clearly feel my progress every day. This is my journal entry for today."
