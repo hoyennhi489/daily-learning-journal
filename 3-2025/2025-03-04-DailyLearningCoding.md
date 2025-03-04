@@ -1,0 +1,1 @@
+Today, I continue with my next project: **Build a Drum Machine**. Currently, I am still in the process of researching and working on the initial steps. Therefore, I am writing this down to record my daily journal.
