@@ -1,0 +1,1 @@
+Today, I am continuing with my next project: **Building a JavaScript Calculator**. At the moment, I am still in the process of researching and working on the initial steps. Therefore, I am writing this down to record my daily journal.
