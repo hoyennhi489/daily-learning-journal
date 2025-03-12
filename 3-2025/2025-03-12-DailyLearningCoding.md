@@ -1,0 +1,1 @@
+Today, I am starting a new project: **"Build a 25 + 5 Clock."** I’m currently in the early stages, setting things up and getting familiar with the requirements. There’s still a lot to figure out, but I’m excited to dive deeper into it. Therefore, I’m writing this down to record my daily journal.  
