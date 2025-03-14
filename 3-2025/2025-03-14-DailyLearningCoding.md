@@ -1,0 +1,1 @@
+**Today, I continued working on my "Build a 25 + 5 Clock" project.** I made some progress setting up the timer and adjusting the layout. There’s still a lot to improve, but things are starting to come together. I'm feeling more comfortable with the project as I work through the details. Just noting this down to keep track of my progress.  
