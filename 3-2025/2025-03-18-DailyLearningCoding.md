@@ -1,0 +1,1 @@
+Today, I started working on the **"GitHub Profile Finder"** project using **Vite** and **React**. Although I’ve learned the basics, I still feel like I haven’t fully grasped React. I faced difficulties managing state and handling data from the API. Nevertheless, I’ll keep trying because I believe that practice will help me improve faster.
