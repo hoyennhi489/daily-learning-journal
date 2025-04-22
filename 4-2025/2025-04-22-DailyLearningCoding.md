@@ -43,7 +43,6 @@ function removeTodo() {}
   + It's a good practice to comment on complex logic.  
   + Limit functions to a maximum of 3 parameters.
 
----
 
 6. **Boolean**: A primitive data type that only has two values: true or false.
 
