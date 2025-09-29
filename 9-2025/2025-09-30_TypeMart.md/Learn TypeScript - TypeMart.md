@@ -1,4 +1,4 @@
-# 📘 Learn TypeScript - TypeMart Purchase Flow
+# Learn TypeScript - TypeMart Purchase Flow
 
 ## Objective
 
