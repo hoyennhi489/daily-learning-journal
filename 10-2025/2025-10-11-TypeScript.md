@@ -303,3 +303,64 @@ You can use spread syntax for:
 * Function calls
 * Copying arrays or objects
 * Concatenating arrays
+
+### Example:
+
+```typescript
+function performDanceMove(moveName: string, moveReps: number, hasFlair: boolean): void {
+  console.log(`I do the ${moveName} ${moveReps} times!`);
+  if (hasFlair) {
+    console.log('I do it with flair!');
+  }
+}
+
+// Array of Tuples
+// Each tuple includes: [string, number, boolean]
+let danceMoves: [string, number, boolean][] = [
+  ['chicken beak', 4, false],
+  ['wing flap', 4, false],
+  ['tail feather shake', 4, false],
+  ['clap', 4, false],
+  ['chicken beak', 4, true],
+  ['wing flap', 4, true],
+  ['tail feather shake', 4, true],
+  ['clap', 4, true],
+];
+
+// Loop through each tuple in the array and use the spread syntax
+for (let move of danceMoves) {
+  performDanceMove(...move);
+}
+```
+
+### Explanation:
+
+| Component                                 | Meaning                                                                                                                                                                |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `danceMoves: [string, number, boolean][]` | An array containing multiple tuples, each tuple includes 3 elements: the move name (`string`), number of repetitions (`number`), and whether it has flair (`boolean`). |
+| `...move`                                 | Spread syntax — “spreads” the three elements in each tuple into three arguments for the `performDanceMove()` function.                                                 |
+| `performDanceMove(...move)`               | Calls the function with each set of data inside `danceMoves`.                                                                                                          |
+
+### Run:
+
+```
+tsc
+node index.js
+```
+
+### Output:
+
+```
+I do the chicken beak 4 times!
+I do the wing flap 4 times!
+I do the tail feather shake 4 times!
+I do the clap 4 times!
+I do the chicken beak 4 times!
+I do it with flair!
+I do the wing flap 4 times!
+I do it with flair!
+I do the tail feather shake 4 times!
+I do it with flair!
+I do the clap 4 times!
+I do it with flair!
+```
