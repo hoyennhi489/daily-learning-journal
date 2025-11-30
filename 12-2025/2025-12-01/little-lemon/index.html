@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon - Mediterranean Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Little Lemon Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Little Lemon</h1>
+            <p>Family-owned Mediterranean restaurant in Chicago serving traditional dishes with a modern twist.</p>
+            <a href="#reservation" class="btn">Reserve Now</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Little Lemon</h2>
+                <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their dream of owning a restaurant. The restaurant focuses on traditional recipes served with a modern twist, drawing inspiration from Italian, Greek, and Turkish cuisines.</p>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2>Menu</h2>
+                <div class="menu-items">
+                    <article class="menu-item">
+                        <img src="dish1.jpg" alt="Tavolara Salad">
+                        <h3>Tavolara Salad</h3>
+                        <p>Green & red “Lollo” salad, walnuts, fresh black fig, Sardinian pecorino cheese, honey & orange dressing.</p>
+                    </article>
+                    <article class="menu-item">
+                        <img src="dish2.jpg" alt="Regina Pizza">
+                        <h3>Regina Pizza</h3>
+                        <p>Neapolitan buffalo mozzarella, Italian cherry tomatoes, San Marzano DOP tomato sauce, basil.</p>
+                    </article>
+                    <article class="menu-item">
+                        <img src="dish3.jpg" alt="Gnocco alla Sorrentina">
+                        <h3>Gnocco alla Sorrentina</h3>
+                        <p>Handmade potatoes gnocchi, cherry tomato sauce, smoked mozzarella, Parmesan cheese, organic extra virgin olive oil from Sicily and fresh basil.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation">
+            <div class="container">
+                <h2>Reservation</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+
+                    <label for="people">Number of people:</label>
+                    <input type="number" id="people" name="people" min="1" max="20" required>
+
+                    <button type="submit">Reserve</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-flex">
+            <div class="footer-left">
+                <p>&copy; 2025 Little Lemon</p>
+            </div>
+            <div class="footer-right">
+                <p>Chicago, Illinois</p>
+                <p>Email: contact@littlelemon.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
