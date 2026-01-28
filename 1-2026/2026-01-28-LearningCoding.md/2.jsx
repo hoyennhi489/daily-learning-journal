@@ -69,5 +69,3 @@ function App() {
 }
 
 export default App;
-
-// disabled là thuộc tính để khóa (vô hiệu hóa) một nút hoặc input trong HTML & React.
